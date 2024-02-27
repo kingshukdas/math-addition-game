@@ -5,7 +5,6 @@ import { RouterModule, RouterOutlet } from '@angular/router';
 import { BrowserModule } from '@angular/platform-browser';
 import { GameModule } from '../game/game.module';
 import { AppRoutingModule } from './app-routing.module';
-import { LandingModule } from '../landing/landing.module';
 
 
 @NgModule({
@@ -15,7 +14,6 @@ import { LandingModule } from '../landing/landing.module';
     CommonModule,
     RouterOutlet,
     GameModule,
-    LandingModule,
     AppRoutingModule,
   ],
   exports: [RouterModule],

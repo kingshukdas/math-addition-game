@@ -1,16 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { GameComponent } from '../game/game.component';
-import { LandingComponent } from '../landing/landing.component';
 
 
 export const routes: Routes = [
   {
     path: '',
-    component: LandingComponent
+    component: GameComponent
   },
   {
-    path: 'game',
+    path: '**',
     component: GameComponent
 }];
 
