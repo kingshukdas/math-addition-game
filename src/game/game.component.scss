@@ -1,14 +1,21 @@
 .game-wrapper {
-    margin: 100px;
+    margin: 15rem;
     justify-content: center;
+    input {
+        width: 65%;
+    }
 }
 
 .summation-status {
-    height: 100px;
+    height: 5rem;
 }
 
 .number {
-    margin: 5px;
+    margin-right: 1.5rem;
+}
+
+.expression {
+    font-size: 4rem;
 }
 
 #timer-text {
@@ -25,8 +32,4 @@
 
 #average-count {
     border: solid 1px violet;
-}
-
-.f-48 {
-    font-size: 48px;
 }
